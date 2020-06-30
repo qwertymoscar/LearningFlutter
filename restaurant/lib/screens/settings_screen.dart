@@ -20,7 +20,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
   @override
   initState() {
-    _glutenFree = widget.settings['gluten'];
+    _glutenFree = widget.settings['gluten']; 
     _vegetarian = widget.settings['vegetarian'];
     _vegan = widget.settings['vegan'];
     _lactoseFree = widget.settings['lactose'];
